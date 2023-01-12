@@ -1,0 +1,28 @@
+.random-planet {
+    display: flex;
+    padding: 1rem;
+    border-radius: 10px;
+    background-color: #444;
+}
+
+.planet-img{
+    background-color: white;
+    width: 150px;
+    height: 150px;
+    margin-right: 1rem;
+    border-radius: 10px;
+}
+
+.planet-characteristics {
+    
+}
+
+.list {
+    margin-left: 1rem;
+    background-color: #444;
+}
+
+.list-group-item {
+    background-color: inherit;
+    border: 1px solid #919191;
+}

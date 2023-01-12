@@ -1,0 +1,13 @@
+.error-block {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 0 auto;
+    color: orange;
+    max-width: 30%;
+}
+
+.error-block img {
+    width: 50%;
+}

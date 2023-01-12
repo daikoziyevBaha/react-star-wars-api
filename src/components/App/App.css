@@ -1,0 +1,42 @@
+.item-list-body {
+    margin-top: 1rem;
+}
+
+.img {
+    width: 100%;
+    border-radius: 20px;
+    object-fit: contain;
+    padding: 0.5rem;
+}
+
+.toggle-button {
+    margin-top: 1rem;
+}
+
+.toggle-button button {
+    padding: .5rem;
+    background-color: rgb(222, 187, 33);
+    font-size: 18px;
+    border-radius: 10px;
+    font-weight: bold;
+    margin-bottom: 0;
+}
+
+.term {
+    font-weight: bold;
+}
+
+.term::after {
+    content: ':';
+    margin-left: 0.1rem;
+}
+
+.term {
+    padding-right: .25rem;
+}
+
+@media (max-width: 768px) {
+    .one-col {
+        padding-bottom: 1rem;
+    }
+}

@@ -1,0 +1,34 @@
+.item-list {
+    margin: 2rem 0;
+    background-color: inherit;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 1rem;
+}
+
+.item-list-group {
+    width: auto;
+    flex-grow: 1;
+    cursor: pointer;
+    margin-bottom: 1rem;
+}
+
+.item-details {
+    flex-grow: 1;
+}
+
+.list-group {
+    border-radius: 10px;
+    background-color: #444;
+}
+
+.custom-list {  
+    margin-left: 2rem;
+}
+
+@media screen and (max-width: 576px) {
+    .item-list-group {
+        width: 100%;
+    }
+}
